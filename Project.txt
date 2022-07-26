@@ -1,0 +1,75 @@
+eCommerce Web Application
+-------------------------
+Create a full functional eCommerce Web Application.
+
+All the data should be saved in localStorage
+	-) users = [], singleUser = {}
+	-) products = [], singleProduct = {}
+	-) cart = [], cartItem = singleProduct
+	-) orders = [], singleOrder = cart
+
+
+Requirement # 1
+---------------
+a) Visitors Should be able to register to the website, and become a user:
+	-) uniqueId, dateRegistered, email, username (unique), password, firstName, lastName, address, city, country
+b) Users Should be able to login.
+c) Forgot Password page to Change the password.
+
+
+
+Requirement # 2
+---------------
+a) 10 recent Products should displayed in HomePage
+b) Logged in Users should be able to create new products. 
+	-) Save user Id while creating new products to track who created this product
+	-) uniqueIdOfProduct, dateCreated, uniqueIdOfUser, username, productName, productImage, productPrice, productCategory
+
+c) Main Products Page should display the products
+d) On the Left side bar Display all the categories.
+e) On Clicking the category link, display products related to that category.
+f) Vistors should be able to add products in cart, but only loggedIn users should be able to create orders
+	-) uniqueOrderId, dateCreated, selectedProductsInCart = [], orderTotal
+
+
+Requirement # 3
+---------------
+a) Create an Admin Dashboard Page
+b) Admin can see all the products created by all the users
+c) Admin can edit all the products details except uniqueIdOfProduct
+d) Admin can add new products
+
+d) Admin can see all the users registered
+e) Admin can edit all the users Data except uniqueIdOfUser
+
+f) Admin can see all the orders created by users
+
+
+Requirement # 4
+---------------
+a) Create a User Dashboard Page can be viewed and accesses only by logged in User
+	-) If User is not logged in send them to loginPage
+
+b) Users can add new products
+b) Users can see all the products created only by them
+c) Users can edit all the products details created only by them except uniqueIdOfProduct
+
+d) Users can edit his profile
+
+e) User can see all the orders created by them
+
+
+
+
+
+
+
+
+----------------------------------------------------------
+
+add product items
+title , price , description , size , color , quantityInStock , 
+
+	
+	
+	
